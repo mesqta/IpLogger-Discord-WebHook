@@ -26,3 +26,7 @@ The CSS within the `<style>` tag is used to hide elements from the `HTML` page, 
 ---
 
 Add the code however you like, whether you want to implement it in your own project or use this repository as a basis for the project and build upon it.
+
+---
+
+![Exemplo](https://media.discordapp.net/attachments/1155932525366099990/1208356800450011196/image.png?ex=65e2fcf7&is=65d087f7&hm=882636c308419c3e30f0ad173aa9522a648b333dece149e6f76a047143a4d3ef&=&format=webp&quality=lossless&width=408&height=82)
