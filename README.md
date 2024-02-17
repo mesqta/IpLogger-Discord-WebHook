@@ -1,7 +1,7 @@
 ## Explanation:
 - This repository is only used for study purposes. I do not take responsibility for your actions!
 
-- This HTML and JavaScript code aims to gather information about the user's IP address and send it to a server. I will describe in detail the functions present in the code:
+- This `HTML` and `JavaScript` code aims to gather information about the user's IP address and send it to a server. I will describe in detail the functions present in the code:
 
 ---
 
@@ -12,14 +12,14 @@ This function is responsible for making an XMLHttpRequest request to obtain info
 callback: A callback function that will be called when the request response is ready. This function takes one argument, which is the response text.
 
 - 2 - **ipLogByAlv():**
-This function is called after a certain time (defined by setTimeout) and is responsible for sending a POST request with some specific information to a determined destination (wbhk). It does not accept any parameters.
+This function is called after a certain time (defined by setTimeout) and is responsible for sending a POST request with some specific information to a determined destination `(wbhk)`. It does not accept any parameters.
 ---
-In addition, there are some DOM (Document Object Model) manipulations to dynamically create HTML elements and add them to the page:
+In addition, there are some DOM **(Document Object Model)** manipulations to dynamically create `HTML` elements and add them to the page:
 
 - After receiving the responses from the HTTP requests, the content is inserted into new `<div>` elements that are created dynamically. These elements are then assigned specific IDs: `'alvaroolog'` and `'ip'`.
 
 
-- Then, these elements are added as children of the element with the class 'header' (an empty `<header>`), which is already present in the HTML page.
+- Then, these elements are added as children of the element with the class `'header'` (an empty `<header>`), which is already present in the HTML page.
 
 The CSS within the `<style>` tag is used to hide elements from the `HTML` page, with the classes .header and `.map-container`, by setting display: none for both, which means they will not be displayed on the page.
 
